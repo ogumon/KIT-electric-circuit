@@ -1,0 +1,249 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:modules
+LIBS:utm
+LIBS:vlp
+LIBS:GPS
+LIBS:power_supply-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Fuse F2
+U 1 1 5B47290C
+P 5350 4600
+F 0 "F2" V 5430 4600 50  0000 C CNN
+F 1 "Fuse" V 5275 4600 50  0000 C CNN
+F 2 "" V 5280 4600 50  0001 C CNN
+F 3 "" H 5350 4600 50  0001 C CNN
+	1    5350 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L Fuse F1
+U 1 1 5B4729B5
+P 5350 4350
+F 0 "F1" V 5430 4350 50  0000 C CNN
+F 1 "Fuse" V 5275 4350 50  0000 C CNN
+F 2 "" V 5280 4350 50  0001 C CNN
+F 3 "" H 5350 4350 50  0001 C CNN
+	1    5350 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L Fuse F3
+U 1 1 5B472A03
+P 5350 4850
+F 0 "F3" V 5430 4850 50  0000 C CNN
+F 1 "Fuse" V 5275 4850 50  0000 C CNN
+F 2 "" V 5280 4850 50  0001 C CNN
+F 3 "" H 5350 4850 50  0001 C CNN
+	1    5350 4850
+	0    1    1    0   
+$EndComp
+$Comp
+L Fuse F4
+U 1 1 5B472A2D
+P 5350 5100
+F 0 "F4" V 5430 5100 50  0000 C CNN
+F 1 "Fuse" V 5275 5100 50  0000 C CNN
+F 2 "" V 5280 5100 50  0001 C CNN
+F 3 "" H 5350 5100 50  0001 C CNN
+	1    5350 5100
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 5B472CD9
+P 4050 6100
+F 0 "#PWR01" H 4050 5850 50  0001 C CNN
+F 1 "GND" H 4050 5950 50  0000 C CNN
+F 2 "" H 4050 6100 50  0001 C CNN
+F 3 "" H 4050 6100 50  0001 C CNN
+	1    4050 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR02
+U 1 1 5B472CF9
+P 5050 4150
+F 0 "#PWR02" H 5050 4000 50  0001 C CNN
+F 1 "VCC" H 5050 4300 50  0000 C CNN
+F 2 "" H 5050 4150 50  0001 C CNN
+F 3 "" H 5050 4150 50  0001 C CNN
+	1    5050 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L UTM U1
+U 1 1 5B4733CF
+P 6600 4400
+F 0 "U1" H 6850 4100 60  0000 C CNN
+F 1 "UTM-30-LX-EW" H 6850 4600 60  0000 C CNN
+F 2 "" H 6600 4400 60  0001 C CNN
+F 3 "" H 6600 4400 60  0001 C CNN
+	1    6600 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L UTM U2
+U 1 1 5B473751
+P 6600 5050
+F 0 "U2" H 6850 4750 60  0000 C CNN
+F 1 "UTM-30-LX-EW" H 6850 5250 60  0000 C CNN
+F 2 "" H 6600 5050 60  0001 C CNN
+F 3 "" H 6600 5050 60  0001 C CNN
+	1    6600 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L VLP V1
+U 1 1 5B4739A8
+P 5100 6800
+F 0 "V1" H 5550 7200 60  0000 C CNN
+F 1 "VLP-16" H 5250 7200 60  0000 C CNN
+F 2 "" H 5100 6800 60  0001 C CNN
+F 3 "" H 5100 6800 60  0001 C CNN
+	1    5100 6800
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6250 6550
+NoConn ~ 6250 6700
+NoConn ~ 6250 6850
+NoConn ~ 6250 7000
+NoConn ~ 6250 7150
+NoConn ~ 4900 7000
+NoConn ~ 4900 6850
+NoConn ~ 4900 6550
+$Comp
+L PWR_FLAG #FLG03
+U 1 1 5B474986
+P 3900 4450
+F 0 "#FLG03" H 3900 4525 50  0001 C CNN
+F 1 "PWR_FLAG" H 3900 4600 50  0000 C CNN
+F 2 "" H 3900 4450 50  0001 C CNN
+F 3 "" H 3900 4450 50  0001 C CNN
+	1    3900 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG04
+U 1 1 5B4749AD
+P 4350 4450
+F 0 "#FLG04" H 4350 4525 50  0001 C CNN
+F 1 "PWR_FLAG" H 4350 4600 50  0000 C CNN
+F 2 "" H 4350 4450 50  0001 C CNN
+F 3 "" H 4350 4450 50  0001 C CNN
+	1    4350 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR05
+U 1 1 5B4749C8
+P 3900 4950
+F 0 "#PWR05" H 3900 4800 50  0001 C CNN
+F 1 "VCC" H 3900 5100 50  0000 C CNN
+F 2 "" H 3900 4950 50  0001 C CNN
+F 3 "" H 3900 4950 50  0001 C CNN
+	1    3900 4950
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR06
+U 1 1 5B4749EA
+P 4350 4950
+F 0 "#PWR06" H 4350 4700 50  0001 C CNN
+F 1 "GND" H 4350 4800 50  0000 C CNN
+F 2 "" H 4350 4950 50  0001 C CNN
+F 3 "" H 4350 4950 50  0001 C CNN
+	1    4350 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 5100 5700 5100
+Wire Wire Line
+	5500 4850 5950 4850
+Connection ~ 5050 4350
+Wire Wire Line
+	5200 4350 5050 4350
+Connection ~ 5050 4600
+Wire Wire Line
+	5050 4600 5200 4600
+Connection ~ 5050 4850
+Wire Wire Line
+	5050 4850 5200 4850
+Connection ~ 5050 5100
+Wire Wire Line
+	5050 5100 5200 5100
+Wire Wire Line
+	5050 4150 5050 5300
+Wire Wire Line
+	5500 4350 6450 4350
+Wire Wire Line
+	5700 5100 5700 5550
+Wire Wire Line
+	5700 5550 4900 6700
+Wire Wire Line
+	3900 4950 3900 4450
+Wire Wire Line
+	4350 4450 4350 4950
+Wire Wire Line
+	5500 4600 6150 4600
+Wire Wire Line
+	6150 4600 6150 5000
+Wire Wire Line
+	6150 5000 6450 5000
+$Comp
+L A100smart_antenna GPS?
+U 1 1 5B4751BF
+P 7200 5750
+F 0 "GPS?" H 7600 6050 60  0000 C CNN
+F 1 "A100smart_antenna" H 6950 6050 60  0000 C CNN
+F 2 "" H 7200 5750 60  0001 C CNN
+F 3 "" H 7200 5750 60  0001 C CNN
+	1    7200 5750
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
